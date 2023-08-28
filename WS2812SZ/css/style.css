@@ -1,0 +1,60 @@
+
+/*-------------登录----------*/
+.loginbox fn-right{
+	margin-left: auto;
+    margin-right: auto;
+    display: block; /* 或者 display: inline-block; */
+    text-align: center; /* 父元素的文本对齐属性 */
+}
+.loginbox{width: 335px;height:450px;background: #fff;padding: 20px 25px;margin: 50px 0;
+
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto; 
+         }
+.loginbox li{ margin-bottom: 20px; height: 50px; border: 1px solid #dddddd;border-radius: 2px}
+.i-label,.login-input{ float: left;}
+.i-label{display: inline-block; width: 43px; height: 46px;}
+.login-tit1 {text-align: center;}
+.codebox{ width: 160px; position: relative;}
+.codebox .login-input{ min-width: 80px; width: 100px;}
+.login-input{ width: 230px; border: none;}
+.login-input .inputure{ height: 32px; line-height: 32px;margin-top: 7px; padding-left: 10px; font-size: 16px;color: #262626;}
+.loginbox .btn{text-align: center;display: block;border-radius: 2px;background-color: #487bf0; height: 50px; line-height: 50px; width:335px; margin-top: 20px; font-size: 20px;margin-right: auto;margin-left: auto;color: #fff;}
+.loginbox .login-text{ text-align: center; padding-top: 20px;}
+.loginbox .code{border: 1px solid #dddddd; padding: 1px;border-radius: 2px; right: -175px;top:-1px;margin-left:49px;}
+.loginbox .code img{ display: block; width: 140px; height: 44px;}
+.loginbox .textError{font-size: 12px; overflow:hidden;}
+.loginbox .textError span{color: #ff3300;} 
+.loginbox .textError a{color: #757575;}
+
+ .ologin_text .alipay:hover{    background-position: 0px -90px;}
+ .login-tit{
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.fn-font-24{
+font-size: 21px;
+
+}
+
+.sml-line{
+	width: 1px;
+	height: 32px;
+	background-color: #ccc;
+	right: 0;
+	top: 7px;
+}
+.login-icon-ren{
+	 background: url(../img/login-icon-ren.png) no-repeat center;
+}
+.login-icon-psw{
+	background: url(../img/login-icon-psw.png) no-repeat center;
+}
+.login-icon-check{
+	background: url(../img/login-icon-check.png) no-repeat center;
+}

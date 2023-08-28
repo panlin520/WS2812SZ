@@ -1,0 +1,19 @@
+
+/* 内外边距通常让各个浏览器样式的表现位置不同 */
+body, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { margin: 0; padding: 0; }
+
+
+input, select, textarea { font-size: 100%;  outline:none; border: none;}
+
+/* 去掉列表前的标识, li 会继承 */
+ol, ul,li{ list-style: none; }
+
+/* 清理浮动 */
+.clearfix{*zoom:1;}
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+
+/* 定位 */
+.fn-pr { position: relative; }
+.fn-pa { position: absolute; }
+

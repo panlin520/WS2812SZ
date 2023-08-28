@@ -1,0 +1,28 @@
+
+.ico16{ display: inline-block; width:16px; height: 16px;}
+.ico14{ display: inline-block; width: 14px; height: 14px; background: url(../img/down.png) no-repeat;}
+.ico28{ display: inline-block; width: 28px; height: 28px;  vertical-align:middle;background: url(../img/ico28.png) no-repeat;}
+.ico28.ico-account{ background-position: 0px 0px;}
+.ico28.ico-ts{ background-position: -28px 0px;}
+.ico28.ico-jb{ background-position: -56px 0px;}
+.l-close{ display: inline-block; cursor: pointer; width: 11px; height: 11px; background:url(../img/sprite.png) 0 -17px no-repeat;}
+.l-close:hover{ background-position: 0 -28px;}
+.ico-error,.ico-success,.ico-info,.ico-search{ display: inline-block; width: 18px; height: 18px; vertical-align: -3px; background: url(../img/sprite.png) no-repeat;}
+.ico-error{ background-position: 0 -67px;}
+.ico-success{ background-position:0 -85px ;}
+.ico-info{ background-position: 0 -49px;}
+.ico-search{ background-position: 0 -113px;}
+.ico-to{ display: inline-block; width: 7px; height: 12px; background: url(../img/sprite.png) 0 -215px;}
+
+.contentForm li .u-label{ display:block; float: left;text-align: right; margin-right: 20px; font-size: 16px;color: #555;}
+.contentForm li .u-label span{ margin-right: 2px;}
+.input-group{ position: relative; padding: 0 4px; border: 1px solid #b3b3b3;}
+.input-group .inputure{ display: inline-block; width: 100%; background: #fff;}
+.input-group .arrow{ position: absolute; cursor: pointer;display: inline-block; width: 13px; height: 7px; background:url(../img/sprite.png) no-repeat;}
+.input-group.input-default{ background: #f7f7f7; cursor: default;}
+.input-group.input-success{ border:1px solid #3dce4b;}
+.input-group.input-error{ border:1px solid #ff3300;}
+.dropbox{ position: absolute; width: 100%; box-shadow:  0 1px 3px #ccc; background: #fff; left:-1px; z-index: 99; border: 1px solid #bbb;}
+.dropbox li{ cursor: pointer;}
+.dropbox li a{ padding: 2px 4px; display:block;}
+.dropbox li:hover{ background: #F4F4F4;}
